@@ -1,6 +1,6 @@
 def totalrolls(filename):
     with open(filename,'r') as f:
-        matrix = [list(line.strip()) for line in f]   # <-- FIX 1: convert to list
+        matrix = [list(line.strip()) for line in f]  
 
     rows=len(matrix)
     columns=len(matrix[0])
